@@ -67,12 +67,6 @@ body{
     padding: 10px;
 }
 
-.cont-bottom{
-    background-color: aqua;
-    border: 1px solid blue;
-    height: 10%;
-}
-
 .cont-side{
     background-color: black;
     color: white;
@@ -138,9 +132,70 @@ body{
     object-fit: cover;
 }
 
+.cont-main{
+    flex-grow: 1;
+}
 
+.cont-bottom{
+    background-color: aqua;
+    border: 1px solid blue;
+    height: 10%;
+}
 
+.box-bottom{
+    padding: 10px;
+}
 
+.bottom-left{
+    /* padding: 10px; */
+    /* width: 25%; */
+}
+
+.sinist{
+    width: 40px;
+}
+
+.sinist img{
+    width: 100%;
+}
+
+.left-icons{
+flex-wrap: wrap;
+}
+
+.bottom-center{
+    width: 50%;
+}
+
+.center-icons{
+    text-align: center;
+}
+
+.time{
+    width: 100%;
+    background-color: #141922;
+    height: 10px;
+}
+
+.time1{
+    width: 100px;
+    background-color: #141922;
+    height: 10px;
+}
+
+.time2{
+    width: 30%;
+    background-color:  grey;
+    height: 10px;
+}
+
+.bottom-right{
+    /* width: 25%; */
+}
+
+.right-icons{
+
+}
 
 @media screen and ( min-width: 728px ){
     .none{
