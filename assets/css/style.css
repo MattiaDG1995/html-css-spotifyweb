@@ -45,7 +45,7 @@ body{
 
 .cont-top{
     background-color: red;
-    height: 90%;
+    /* height: 90%; */
     border: 1px solid white;
 }
 
@@ -54,7 +54,9 @@ body{
     height: 10%;
     width: 100%;
     border: 2px solid green;
-    position: relative;
+    position: fixed;
+    top: 0;
+    right: 0;
     z-index: 1;
 }
 
@@ -73,8 +75,12 @@ body{
     width: 10%;
     position: relative;
     z-index: 2;
+    /* top: 0;
+    left: 0;
+    bottom: 0; */
     /* text-align: center;   */
     padding: 10px;
+    height: 90vh;
 }
 
 .cont-side img{
@@ -140,6 +146,11 @@ body{
     background-color: aqua;
     border: 1px solid blue;
     height: 10%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
 }
 
 .box-bottom{
