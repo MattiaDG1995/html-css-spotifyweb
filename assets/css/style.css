@@ -7,10 +7,31 @@
     list-style: none;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: yellowgreen; 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(117, 156, 39); 
+  }
+
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #141922;
-    
 }
 
 .flex{
@@ -65,6 +86,10 @@ body{
     margin-right: 8px;
 }
 
+.button-head:hover{
+    transform: scale(1.1);
+}
+
 .button-head button{
     border-radius: 20px;
     padding: 10px;
@@ -115,6 +140,10 @@ body{
     text-align: center;
 }
 
+.side-text:hover{
+    color: white;
+}
+
 .side-text i{
     margin-right: 5px;
 }
@@ -127,6 +156,14 @@ body{
     /* display: none; */
     margin-top: 15px;
     padding: 10px;
+}
+
+.side-center span:hover{
+    color: white;
+}
+
+.side-center li:hover{
+    color: white;
 }
 
 .side-center h3{
@@ -183,6 +220,10 @@ body{
     color: gray;
 }
 
+.border-side:hover{
+    color: white;
+}
+
 .border-side i{
     margin-right: 10px;
 }
@@ -222,8 +263,16 @@ body{
     text-align: center;
 }
 
+.card:hover{
+    transform: scale(1.1);
+}
+
 .card img{
     width: 100%;
+}
+
+.card img:hover{
+    opacity: 50%;
 }
 
 .img-menù{
@@ -260,6 +309,10 @@ nav a{
     color: gray;
     text-decoration: none;
     font-size: 80%;
+}
+
+nav a:hover{
+    color: white;
 }
 
 .green{
@@ -308,6 +361,10 @@ nav a{
     color: gray;
 }
 
+.sin-text h6:hover{
+    color: white;
+}
+
 .left-icons{
     flex-wrap: wrap;
     margin-left: 5px;
@@ -317,20 +374,27 @@ nav a{
     margin-left: 5px;
 }
 
+.left-icons i:hover{
+    transform: scale(1.5);
+}
 
 .bottom-center{
     width: 50%;
 }
 
 .center-icons{
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .center-icons i{
     padding-left: 10px;
     padding-right: 10px;
     font-size: 150%;
+}
+
+.center-icons i:hover{
+    transform: scale(1.5);
+    color: gray;
 }
 
 .center-num span{
@@ -350,7 +414,6 @@ nav a{
     background-color: #141922;
     height: 5px;
     border-radius: 20%;
-   
 }
 
 .time2{
@@ -358,6 +421,11 @@ nav a{
     background-color:  grey;
     height: 5px;
     border-radius: 20%;
+    position: relative;
+}
+
+.time2:hover{
+    background-color: yellowgreen; 
 }
 
 .bottom-right{
@@ -368,6 +436,11 @@ nav a{
 .right-icons i{
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.right-icons i:hover{
+    transform: scale(1.5);
+    color: gray;
 }
 
 .bottom-right{
